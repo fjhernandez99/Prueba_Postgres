@@ -16,7 +16,7 @@ else:
     print("Mecánico")
     s = "Mecánico"
 
-#Establecemos la conexión a la base de datos 
+#Establecemos la conexión a la base de datos
 conexion = psycopg2.connect(database="postgres",user="postgres", password="paco1999")
 #Los parametros son nombre de base, el usuario y la contraseña.
 cursor = conexion.cursor() #Asignamos el valor de cursor
